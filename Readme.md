@@ -15,7 +15,7 @@ linux:~/hello # python app.py
 ## Test App
 
 ```bash
-linux:~/hello # curl http://127.0.0.1:5000
+linux:~/hello # curl http://127.0.0.1:8080
 ```
 
 ---
@@ -31,5 +31,6 @@ linux:~/hello # docker build -t hello .
 ## Run Container
 
 ```bash
-linux:~/hello # docker 
+linux:~/hello # docker run -itd -p8080:8080 --name hello hello
 ```
+

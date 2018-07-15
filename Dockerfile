@@ -1,6 +1,6 @@
 FROM python:alpine
 
-EXPOSE 80808
+EXPOSE 8080
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
