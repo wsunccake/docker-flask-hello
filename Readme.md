@@ -18,6 +18,7 @@ linux:~/hello # python app.py
 linux:~/hello # curl http://127.0.0.1:8080
 ```
 
+
 ---
 
 # Docker
@@ -34,3 +35,25 @@ linux:~/hello # docker build -t hello .
 linux:~/hello # docker run -itd -p8080:8080 --name hello hello
 ```
 
+## Stop Container
+
+```bash
+linux:~/hello # docker stop hello
+```
+
+
+---
+
+# Docker Compose
+
+## Run App
+ 
+```bash
+linux:~/hello # docker-compose up -d
+```
+
+## Stop App
+
+```bash
+linux:~/hello # docker-compose stop
+```
